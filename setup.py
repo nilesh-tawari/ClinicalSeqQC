@@ -16,7 +16,7 @@ with open(path.join(here, 'HISTORY.rst'), encoding='utf-8') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
-     'numpy', 'pandas>=0.20.2', 'matplotlib', 'bottle'
+     'numpy', 'pandas>=0.20.2,<0.23.0', 'matplotlib', 'bottle'
 ]
 
 test_requirements = [
